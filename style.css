@@ -6,6 +6,7 @@
     font-family: 'poppins', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1246,6 +1247,7 @@ footer p {
         width: 17rem;
         height: 100vh;
         transition: 0.3s;
+        background-color: transparent;
     }
 
     .navbar .nav-link.active {
@@ -1552,6 +1554,7 @@ footer p {
         width: 17rem;
         height: 100vh;
         transition: 0.3s;
+        background-color: transparent;
     }
 
     .navbar .nav-link.active {
@@ -1572,7 +1575,7 @@ footer p {
     }
 
     .landing-item>.text>.text-1 {
-        margin-top: -25%;
+        margin-top: -20%;
         position: relative;
         flex-direction: column;
     }
